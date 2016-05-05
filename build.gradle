@@ -1,0 +1,19 @@
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'Main';
+    }
+}
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.h2database:h2:1.4.191'
+}

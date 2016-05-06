@@ -37,7 +37,7 @@ public class Main {
 
         catch (SQLException e)
         {
-            System.out.println("DB acces denided unable" + e.getMessage());
+            System.out.println("DataBase access denided: " + e.getMessage());
         }
 
     }
